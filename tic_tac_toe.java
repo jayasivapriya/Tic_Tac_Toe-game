@@ -57,7 +57,7 @@ public class Main {
         System.out.println("| " + board[6] + " | " + board[7] + " | " + board[8] + " |");
         System.out.println("|---|---|---|");
     }
-    public static void main(String[] args) {
+    public static void tic_tac_toe(String[] args) {
         Scanner in = new Scanner(System.in);
         board = new String[9];
         turn = "X";
@@ -97,3 +97,4 @@ public class Main {
         in.close();
     }
 }
+
